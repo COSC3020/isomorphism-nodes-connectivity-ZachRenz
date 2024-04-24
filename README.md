@@ -27,7 +27,13 @@ A = [$n_{1,1}$] - $E_{1,1}$ - [$n_{1,2}$]
 
 B = [$n_{2,1}$] - $E_{2,1}$ - [$n_{2,2}$]
 
-These graphs with edges are also isomporphic becasue they satisfy the definition. $f: n_1 \rightarrow n_2$ such that $(n_{1,1}, n_{1,2}) \in E_{1,1}$ iff $(f(n_{1,1}), f(n_{1,2})) \in E_{2,1}$
+These graphs with edges are also isomporphic becasue they satisfy the definition. $f: n_1 \rightarrow n_2$, where $f$ is:
+
+$n_{1,1}$ $n_{1,2}$
+
+$n_{2,1}$ $n_{2,2}$   | or any $n_{1,k} = n_{2,k}$
+
+ such that $(n_{1,1}, n_{1,2}) \in E_{1,1}$ iff $(f(n_{1,1}), f(n_{1,2})) \in E_{2,1}$
 
 If I continute to add one node to each graph and connect it to every other node in the graphs to be completely connected, the new edges and nodes will be added to the bijection function and satisfy the definition of isomorphism, no matter where I add the node. And in general, if I keep doing this method, connecting every new node to all other nodes to be completely connected, they will continute to be isomorphic with each new $n-1$ edges and node. I can therefore reach two completely connected graphs of any size that have to be isomorphic. 
 
